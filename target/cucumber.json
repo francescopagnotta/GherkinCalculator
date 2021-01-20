@@ -1,0 +1,417 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that the Calculator app is running and in focus",
+            "match": {
+              "location": "org.example.calculator.Calculator.that_the_calculator_app_is_running_and_in_focus()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "there is no current value in the calculator",
+            "match": {
+              "location": "org.example.calculator.Calculator.there_is_no_current_value_in_the_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:32:22.784Z",
+        "line": 11,
+        "name": "Add two numbers on the Calculator app",
+        "description": "",
+        "id": "calculator-tester;add-two-numbers-on-the-calculator-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "you add 3 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 8
+                },
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "org.example.calculator.Calculator.you_add_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the value displayed should be 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 30
+                }
+              ],
+              "location": "org.example.calculator.Calculator.the_value_displayed_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that the Calculator app is running and in focus",
+            "match": {
+              "location": "org.example.calculator.Calculator.that_the_calculator_app_is_running_and_in_focus()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "there is no current value in the calculator",
+            "match": {
+              "location": "org.example.calculator.Calculator.there_is_no_current_value_in_the_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:32:22.880Z",
+        "line": 22,
+        "name": "check multiplication function on Calculator app",
+        "description": "",
+        "id": "calculator-tester;check-multiplication-function-on-calculator-app;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I multiply 5 by 9 in the calculator app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                },
+                {
+                  "val": "9",
+                  "offset": 16
+                }
+              ],
+              "location": "org.example.calculator.Calculator.i_multiply_by_in_the_calculator_app(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the app displays the correct 45",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45",
+                  "offset": 29
+                }
+              ],
+              "location": "org.example.calculator.Calculator.the_app_displays_the_correct(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that the Calculator app is running and in focus",
+            "match": {
+              "location": "org.example.calculator.Calculator.that_the_calculator_app_is_running_and_in_focus()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "there is no current value in the calculator",
+            "match": {
+              "location": "org.example.calculator.Calculator.there_is_no_current_value_in_the_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:32:22.884Z",
+        "line": 23,
+        "name": "check multiplication function on Calculator app",
+        "description": "",
+        "id": "calculator-tester;check-multiplication-function-on-calculator-app;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I multiply 5 by 10 in the calculator app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                },
+                {
+                  "val": "10",
+                  "offset": 16
+                }
+              ],
+              "location": "org.example.calculator.Calculator.i_multiply_by_in_the_calculator_app(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the app displays the correct 50",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 29
+                }
+              ],
+              "location": "org.example.calculator.Calculator.the_app_displays_the_correct(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that the Calculator app is running and in focus",
+            "match": {
+              "location": "org.example.calculator.Calculator.that_the_calculator_app_is_running_and_in_focus()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "there is no current value in the calculator",
+            "match": {
+              "location": "org.example.calculator.Calculator.there_is_no_current_value_in_the_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:32:22.887Z",
+        "line": 24,
+        "name": "check multiplication function on Calculator app",
+        "description": "",
+        "id": "calculator-tester;check-multiplication-function-on-calculator-app;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I multiply 5 by 11 in the calculator app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                },
+                {
+                  "val": "11",
+                  "offset": 16
+                }
+              ],
+              "location": "org.example.calculator.Calculator.i_multiply_by_in_the_calculator_app(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the app displays the correct 55",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55",
+                  "offset": 29
+                }
+              ],
+              "location": "org.example.calculator.Calculator.the_app_displays_the_correct(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Calculator",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "that the Calculator app is running and in focus",
+            "match": {
+              "location": "org.example.calculator.Calculator.that_the_calculator_app_is_running_and_in_focus()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "there is no current value in the calculator",
+            "match": {
+              "location": "org.example.calculator.Calculator.there_is_no_current_value_in_the_calculator()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T10:32:22.891Z",
+        "line": 25,
+        "name": "check multiplication function on Calculator app",
+        "description": "",
+        "id": "calculator-tester;check-multiplication-function-on-calculator-app;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I multiply 5 by 12 in the calculator app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                },
+                {
+                  "val": "12",
+                  "offset": 16
+                }
+              ],
+              "location": "org.example.calculator.Calculator.i_multiply_by_in_the_calculator_app(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the app displays the correct 60",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60",
+                  "offset": 29
+                }
+              ],
+              "location": "org.example.calculator.Calculator.the_app_displays_the_correct(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calculator tester",
+    "description": "",
+    "id": "calculator-tester",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Calculator.feature",
+    "tags": []
+  }
+]
