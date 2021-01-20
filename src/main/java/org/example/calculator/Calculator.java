@@ -1,5 +1,7 @@
 package org.example.calculator;
 
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,12 +13,23 @@ public class Calculator {
     //IntCalculator calculator=null;
     SingletonCalculator cal;
     int result;
+    Scenario scenario;
+
+
+
+    @Before
+    public void before(Scenario scenario) {
+        this.scenario = scenario;
+    }
+
+
 
 
     @Given("that the Calculator app is running and in focus")
     public void that_the_calculator_app_is_running_and_in_focus() {
         // Write code here that turns the phrase above into concrete actions
         cal= SingletonCalculator.getInstance();
+        scenario.log("QUESTA è UNA STAMPA");
        System.out.println("@Given : that the Calculator app is running and in focus");
 
     }
