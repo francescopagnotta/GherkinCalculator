@@ -9,7 +9,7 @@ pipeline{
             steps {
 
                 withMaven {
-                    bat 'mvn clean install'
+                    bat 'mvn clean install -DskipTests'
 
                 }
             }
