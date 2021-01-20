@@ -9,8 +9,8 @@ Feature: Calculator tester
 
 
   Scenario: Add two numbers on the Calculator app
-  When you add 3 and 5
-  Then the value displayed should be 8
+  When you add 3 and 6
+  Then the value displayed should be 9
 
 
 
